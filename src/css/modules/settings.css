@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  --color-scheme: light;
+  --primary-color: #FF385C;
+  --secondary-color: #F2F2F2;
+  --black-color: #010508;
+  --white-color: #fefefe;
+  --gray-light: #e8e8e8;
+  
+  --color-text: #222;
+  --color-muted: #717171;
+  --color-border: #ddd;
+  --neutral-200: #ffffffce;
+
+  --primary-font: "Figtree", sans-serif;
+
+  --size: 0.25rem;
+  --max-width: 1350px;
+  --transition-duration: 0.25s;
+
+  /* --radius-rounded: 30px; */
+  --shadow-default: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  --padding-default: calc(var(--size) * 2.5) calc(var(--size) * 4.5);
+  --border-radius: calc(var(--size) * 7.5);
+
+  --header-button-color: var(--secondary-color);
+  --header-button-hover: var(--gray-light);
+  --search-bar-divisor: var(--gray-light)
+}

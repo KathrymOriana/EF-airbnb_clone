@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--color-text);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+body > *:not(:last-child) {
+  gap: 10px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
