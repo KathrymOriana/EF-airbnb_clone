@@ -1,19 +1,13 @@
-import Footer from "./components/layout/Footer"
-import Header from "./components/layout/Header"
-import MobileNav from "./components/layout/MobileNav"
-import DestinationListing from "./components/modules/DestinationListing"
+import { BrowserRouter } from "react-router-dom";
+import AppRouter from "./routes/AppRouter";
 
 function App() {
 
   return (
-    <>
-      <Header />
-      <main className="main">
-        <DestinationListing />
-      </main>
-      <Footer />
-      <MobileNav />
-    </>
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
+
   )
 }
 

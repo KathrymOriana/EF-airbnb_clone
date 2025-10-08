@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { DESTINATIONS } from "../../data/destinations.data";
 import DestinationCard from "../components/DestinationCard";
 
@@ -32,7 +33,9 @@ const DestinationListing = () => {
                     <ul className="listing-section__carousel">
                         {section.places.map((place) => (
                             <li key={place.id}>
-                                <DestinationCard place={place} />
+                                <Link key={place.id} to={`/place/${section.city.toLowerCase()}/${place.id}`}>
+                                    <DestinationCard place={place} />
+                                </Link>
                             </li>
                         ))}
                     </ul>
