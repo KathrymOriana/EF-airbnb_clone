@@ -48,6 +48,7 @@ const ModalMenu = ({ isOpen, onClose }: ModalMenuProps) => {
                     <a href="#" className="modal__link">
                         <div className="item__text">
                             Conviértete en anfitrión
+                            <br />
                             <small className="item__description">Empieza a anfitrionar y genera ingresos
                                 adicionales, ¡es muy sencillo!</small>
                         </div>
