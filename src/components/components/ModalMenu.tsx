@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 
 interface ModalMenuProps {
     isOpen: boolean;
@@ -62,7 +63,9 @@ const ModalMenu = ({ isOpen, onClose }: ModalMenuProps) => {
                 </li>
                 <hr className="modal__division" />
                 <li className="modal__item">
-                    <a href="#" className="modal__link">Iniciar sesión o registrarse</a>
+                    <Link to={`/login`}>
+                        <a href="#" className="modal__link">Iniciar sesión o registrarse</a>
+                    </Link>
                 </li>
             </ul>
         </div>

@@ -1,5 +1,12 @@
 .o-container {
   max-width: var(--max-width);
-  margin: 0 auto;
   padding: var(--padding-default);
+}
+
+.o-container--margin {
+  margin: 0 auto;
+}
+
+.o-container--narrow {
+  max-width: 1120px;
 }

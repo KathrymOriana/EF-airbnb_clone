@@ -1,11 +1,11 @@
 const Footer = () => {
     return ( 
         <footer className="footer">
-            <div className="footer__top o-container">
+            <div className="footer__top o-container o-container--margin">
                 <h2 className="footer__heading">Inspiración para escapadas futuras</h2>
             </div>
 
-            <div className="footer__columns o-container">
+            <div className="footer__columns o-container o-container--margin">
                 <div className="footer__column">
                     <h3 className="footer__title">Asistencia</h3>
                     <ul className="footer__list">
@@ -45,7 +45,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="footer__bottom o-container">
+            <div className="footer__bottom o-container o-container--margin">
                 <div className="footer__legal">
                     <p>© 2025 Airbnb, Inc.</p>
                     <a href="#">Privacidad</a>

@@ -6,7 +6,7 @@ const DestinationListing = () => {
     return ( 
         <section className="listing-sections">
             {DESTINATIONS.map((section) => (
-                <div key={section.id} className="listing-section o-container">
+                <div key={section.id} className="listing-section o-container o-container--margin">
                     <div className="listing-section__header">
                         <h2 className="listing-section__title">
                             <a href="#">{section.subtitle} {section.city} ›</a>

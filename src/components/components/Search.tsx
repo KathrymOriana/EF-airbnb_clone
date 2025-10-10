@@ -1,7 +1,7 @@
 const SearchHeader = () => {
     return (
         <>
-            <div className="header__search o-container">
+            <div className="header__search o-container o-container--margin">
                 <div className="search-bar__item" data-modal="destinos">
                     <span className="search-bar__label">Dónde</span>
                     <div className="search-bar__item--hidden">

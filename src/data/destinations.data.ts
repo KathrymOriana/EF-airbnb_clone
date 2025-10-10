@@ -25,7 +25,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "habitacion",
-        host: HOSTS[2],
+        host: HOSTS[1],
         beds: 1,              // Número de camas
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -55,7 +55,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[3],
+        host: HOSTS[2],
         beds: 1,
         amenities: [
           "Vista al horizonte de la ciudad",
@@ -85,7 +85,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[4],
+        host: HOSTS[3],
         beds: 1,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -115,7 +115,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "vivienda",
-        host: HOSTS[5],
+        host: HOSTS[4],
         beds: 1,
         amenities: [
           "Cocina",
@@ -147,7 +147,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "hotel",
-        host: HOSTS[6],
+        host: HOSTS[5],
         beds: 1,
         amenities: [
           "Cocina",
@@ -182,7 +182,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[8],
+        host: HOSTS[7],
         beds: 2,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -218,7 +218,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "habitacion",
-        host: HOSTS[8],
+        host: HOSTS[7],
         beds: 1,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -254,7 +254,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[9],
+        host: HOSTS[8],
         beds: 1,
         amenities: [
           "Entrada independiente\n<small>Puesto de estacionamiento para personas con discapacidad<small/>",
@@ -290,7 +290,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "departamento",
-        host: HOSTS[1],
+        host: HOSTS[0],
         beds: 1,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Tenemos cámaras de seguridad y video vigilancia en la calle y en los pasadizos comunes del alojamiento y escaleras de acceso Que funcionan y graban las 24 horas, para seguridad de los Huéspedes<small/>",
@@ -326,7 +326,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "departamento",
-        host: HOSTS[4],
+        host: HOSTS[3],
         beds: 1,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Contamos con cámaras y reflector en las afueras del condominio<small/>",
@@ -362,7 +362,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "departamento",
-        host: HOSTS[10],
+        host: HOSTS[9],
         beds: 1,
         amenities: [
           "Vista a las montañas",
@@ -399,7 +399,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "vivienda",
-        host: HOSTS[11],
+        host: HOSTS[10],
         beds: 2,
         amenities: [
           "Wifi",
@@ -436,7 +436,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "apartamento",
-        host: HOSTS[12],
+        host: HOSTS[11],
         beds: 1,
         amenities: [
           "Wifi de 367 Mbps\n<small>Verificado con prueba de velocidad. Se pueden transmitir videos de 4K y unirse a videollamadas en varios dispositivos.<small/>",
@@ -473,7 +473,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "vivienda",
-        host: HOSTS[13],
+        host: HOSTS[12],
         beds: 3,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Exterior del edificio y calle.<small/>",
@@ -511,7 +511,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "hotel",
-        host: HOSTS[12],
+        host: HOSTS[11],
         beds: 2,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Exterior del edificio y calle.<small/>",
@@ -549,7 +549,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[14],
+        host: HOSTS[13],
         beds: 1,
         amenities: [
           "Llegada autónoma",
@@ -594,7 +594,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[15],
+        host: HOSTS[14],
         beds: 1,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -632,7 +632,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "vivienda",
-        host: HOSTS[15],
+        host: HOSTS[14],
         beds: 2,
         amenities: [
           "El anfitrión te va a recibir",
@@ -670,7 +670,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "habitacion",
-        host: HOSTS[17],
+        host: HOSTS[16],
         beds: 2,
         amenities: [
           "Entrada independiente\n<small>Entrada por otra calle o edificio<small/>",
@@ -708,7 +708,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "habitacion",
-        host: HOSTS[16],
+        host: HOSTS[15],
         beds: 2,
         amenities: [
           "Entrada independiente\n<small>Entrada por otra calle o edificio<small/>",
@@ -746,7 +746,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "loft",
-        host: HOSTS[18],
+        host: HOSTS[17],
         beds: 2,
         amenities: [
           "Entrada independiente\n<small>Entrada por otra calle o edificio<small/>",
@@ -791,7 +791,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "habitacion",
-        host: HOSTS[2],
+        host: HOSTS[1],
         beds: 1,              // Número de camas
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -821,7 +821,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[3],
+        host: HOSTS[2],
         beds: 1,
         amenities: [
           "Vista al horizonte de la ciudad",
@@ -851,7 +851,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[4],
+        host: HOSTS[3],
         beds: 1,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -881,7 +881,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "vivienda",
-        host: HOSTS[5],
+        host: HOSTS[4],
         beds: 1,
         amenities: [
           "Cocina",
@@ -913,7 +913,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "hotel",
-        host: HOSTS[6],
+        host: HOSTS[5],
         beds: 1,
         amenities: [
           "Cocina",
@@ -948,7 +948,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[8],
+        host: HOSTS[7],
         beds: 2,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -984,7 +984,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "habitacion",
-        host: HOSTS[8],
+        host: HOSTS[7],
         beds: 1,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -1020,7 +1020,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[9],
+        host: HOSTS[8],
         beds: 1,
         amenities: [
           "Entrada independiente\n<small>Puesto de estacionamiento para personas con discapacidad<small/>",
@@ -1056,7 +1056,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "departamento",
-        host: HOSTS[1],
+        host: HOSTS[0],
         beds: 1,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Tenemos cámaras de seguridad y video vigilancia en la calle y en los pasadizos comunes del alojamiento y escaleras de acceso Que funcionan y graban las 24 horas, para seguridad de los Huéspedes<small/>",
@@ -1092,7 +1092,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "departamento",
-        host: HOSTS[4],
+        host: HOSTS[3],
         beds: 1,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Contamos con cámaras y reflector en las afueras del condominio<small/>",
@@ -1128,7 +1128,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "departamento",
-        host: HOSTS[10],
+        host: HOSTS[9],
         beds: 1,
         amenities: [
           "Vista a las montañas",
@@ -1165,7 +1165,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "vivienda",
-        host: HOSTS[11],
+        host: HOSTS[10],
         beds: 2,
         amenities: [
           "Wifi",
@@ -1202,7 +1202,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "apartamento",
-        host: HOSTS[12],
+        host: HOSTS[11],
         beds: 1,
         amenities: [
           "Wifi de 367 Mbps\n<small>Verificado con prueba de velocidad. Se pueden transmitir videos de 4K y unirse a videollamadas en varios dispositivos.<small/>",
@@ -1239,7 +1239,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "vivienda",
-        host: HOSTS[13],
+        host: HOSTS[12],
         beds: 3,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Exterior del edificio y calle.<small/>",
@@ -1277,7 +1277,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "hotel",
-        host: HOSTS[12],
+        host: HOSTS[11],
         beds: 2,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Exterior del edificio y calle.<small/>",
@@ -1315,7 +1315,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[14],
+        host: HOSTS[13],
         beds: 1,
         amenities: [
           "Llegada autónoma",
@@ -1360,7 +1360,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[15],
+        host: HOSTS[14],
         beds: 1,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -1398,7 +1398,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "vivienda",
-        host: HOSTS[15],
+        host: HOSTS[14],
         beds: 2,
         amenities: [
           "El anfitrión te va a recibir",
@@ -1436,7 +1436,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "habitacion",
-        host: HOSTS[17],
+        host: HOSTS[16],
         beds: 2,
         amenities: [
           "Entrada independiente\n<small>Entrada por otra calle o edificio<small/>",
@@ -1474,7 +1474,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "habitacion",
-        host: HOSTS[16],
+        host: HOSTS[15],
         beds: 2,
         amenities: [
           "Entrada independiente\n<small>Entrada por otra calle o edificio<small/>",
@@ -1512,7 +1512,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "loft",
-        host: HOSTS[18],
+        host: HOSTS[17],
         beds: 2,
         amenities: [
           "Entrada independiente\n<small>Entrada por otra calle o edificio<small/>",
@@ -1557,7 +1557,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "habitacion",
-        host: HOSTS[2],
+        host: HOSTS[1],
         beds: 1,              // Número de camas
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -1587,7 +1587,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[3],
+        host: HOSTS[2],
         beds: 1,
         amenities: [
           "Vista al horizonte de la ciudad",
@@ -1617,7 +1617,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[4],
+        host: HOSTS[3],
         beds: 1,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -1647,7 +1647,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "vivienda",
-        host: HOSTS[5],
+        host: HOSTS[4],
         beds: 1,
         amenities: [
           "Cocina",
@@ -1679,7 +1679,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "hotel",
-        host: HOSTS[6],
+        host: HOSTS[5],
         beds: 1,
         amenities: [
           "Cocina",
@@ -1714,7 +1714,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[8],
+        host: HOSTS[7],
         beds: 2,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -1750,7 +1750,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "habitacion",
-        host: HOSTS[8],
+        host: HOSTS[7],
         beds: 1,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -1786,7 +1786,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[9],
+        host: HOSTS[8],
         beds: 1,
         amenities: [
           "Entrada independiente\n<small>Puesto de estacionamiento para personas con discapacidad<small/>",
@@ -1822,7 +1822,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "departamento",
-        host: HOSTS[1],
+        host: HOSTS[0],
         beds: 1,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Tenemos cámaras de seguridad y video vigilancia en la calle y en los pasadizos comunes del alojamiento y escaleras de acceso Que funcionan y graban las 24 horas, para seguridad de los Huéspedes<small/>",
@@ -1858,7 +1858,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "departamento",
-        host: HOSTS[4],
+        host: HOSTS[3],
         beds: 1,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Contamos con cámaras y reflector en las afueras del condominio<small/>",
@@ -1894,7 +1894,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "departamento",
-        host: HOSTS[10],
+        host: HOSTS[9],
         beds: 1,
         amenities: [
           "Vista a las montañas",
@@ -1931,7 +1931,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "vivienda",
-        host: HOSTS[11],
+        host: HOSTS[10],
         beds: 2,
         amenities: [
           "Wifi",
@@ -1968,7 +1968,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "apartamento",
-        host: HOSTS[12],
+        host: HOSTS[11],
         beds: 1,
         amenities: [
           "Wifi de 367 Mbps\n<small>Verificado con prueba de velocidad. Se pueden transmitir videos de 4K y unirse a videollamadas en varios dispositivos.<small/>",
@@ -2005,7 +2005,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "vivienda",
-        host: HOSTS[13],
+        host: HOSTS[12],
         beds: 3,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Exterior del edificio y calle.<small/>",
@@ -2043,7 +2043,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "hotel",
-        host: HOSTS[12],
+        host: HOSTS[11],
         beds: 2,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Exterior del edificio y calle.<small/>",
@@ -2081,7 +2081,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[14],
+        host: HOSTS[13],
         beds: 1,
         amenities: [
           "Llegada autónoma",
@@ -2126,7 +2126,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[15],
+        host: HOSTS[14],
         beds: 1,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -2164,7 +2164,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "vivienda",
-        host: HOSTS[15],
+        host: HOSTS[14],
         beds: 2,
         amenities: [
           "El anfitrión te va a recibir",
@@ -2202,7 +2202,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "habitacion",
-        host: HOSTS[17],
+        host: HOSTS[16],
         beds: 2,
         amenities: [
           "Entrada independiente\n<small>Entrada por otra calle o edificio<small/>",
@@ -2240,7 +2240,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "habitacion",
-        host: HOSTS[16],
+        host: HOSTS[15],
         beds: 2,
         amenities: [
           "Entrada independiente\n<small>Entrada por otra calle o edificio<small/>",
@@ -2278,7 +2278,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "loft",
-        host: HOSTS[18],
+        host: HOSTS[17],
         beds: 2,
         amenities: [
           "Entrada independiente\n<small>Entrada por otra calle o edificio<small/>",
@@ -2323,7 +2323,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "habitacion",
-        host: HOSTS[2],
+        host: HOSTS[1],
         beds: 1,              // Número de camas
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -2353,7 +2353,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[3],
+        host: HOSTS[2],
         beds: 1,
         amenities: [
           "Vista al horizonte de la ciudad",
@@ -2383,7 +2383,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[4],
+        host: HOSTS[3],
         beds: 1,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -2413,7 +2413,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "vivienda",
-        host: HOSTS[5],
+        host: HOSTS[4],
         beds: 1,
         amenities: [
           "Cocina",
@@ -2445,7 +2445,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "hotel",
-        host: HOSTS[6],
+        host: HOSTS[5],
         beds: 1,
         amenities: [
           "Cocina",
@@ -2480,7 +2480,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[8],
+        host: HOSTS[7],
         beds: 2,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -2516,7 +2516,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "habitacion",
-        host: HOSTS[8],
+        host: HOSTS[7],
         beds: 1,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -2552,7 +2552,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[9],
+        host: HOSTS[8],
         beds: 1,
         amenities: [
           "Entrada independiente\n<small>Puesto de estacionamiento para personas con discapacidad<small/>",
@@ -2588,7 +2588,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "departamento",
-        host: HOSTS[1],
+        host: HOSTS[0],
         beds: 1,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Tenemos cámaras de seguridad y video vigilancia en la calle y en los pasadizos comunes del alojamiento y escaleras de acceso Que funcionan y graban las 24 horas, para seguridad de los Huéspedes<small/>",
@@ -2624,7 +2624,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "departamento",
-        host: HOSTS[4],
+        host: HOSTS[3],
         beds: 1,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Contamos con cámaras y reflector en las afueras del condominio<small/>",
@@ -2660,7 +2660,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "departamento",
-        host: HOSTS[10],
+        host: HOSTS[9],
         beds: 1,
         amenities: [
           "Vista a las montañas",
@@ -2697,7 +2697,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "vivienda",
-        host: HOSTS[11],
+        host: HOSTS[10],
         beds: 2,
         amenities: [
           "Wifi",
@@ -2734,7 +2734,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "apartamento",
-        host: HOSTS[12],
+        host: HOSTS[11],
         beds: 1,
         amenities: [
           "Wifi de 367 Mbps\n<small>Verificado con prueba de velocidad. Se pueden transmitir videos de 4K y unirse a videollamadas en varios dispositivos.<small/>",
@@ -2771,7 +2771,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "vivienda",
-        host: HOSTS[13],
+        host: HOSTS[12],
         beds: 3,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Exterior del edificio y calle.<small/>",
@@ -2809,7 +2809,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "hotel",
-        host: HOSTS[12],
+        host: HOSTS[11],
         beds: 2,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Exterior del edificio y calle.<small/>",
@@ -2847,7 +2847,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[14],
+        host: HOSTS[13],
         beds: 1,
         amenities: [
           "Llegada autónoma",
@@ -2892,7 +2892,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[15],
+        host: HOSTS[14],
         beds: 1,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -2930,7 +2930,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "vivienda",
-        host: HOSTS[15],
+        host: HOSTS[14],
         beds: 2,
         amenities: [
           "El anfitrión te va a recibir",
@@ -2968,7 +2968,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "habitacion",
-        host: HOSTS[17],
+        host: HOSTS[16],
         beds: 2,
         amenities: [
           "Entrada independiente\n<small>Entrada por otra calle o edificio<small/>",
@@ -3006,7 +3006,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "habitacion",
-        host: HOSTS[16],
+        host: HOSTS[15],
         beds: 2,
         amenities: [
           "Entrada independiente\n<small>Entrada por otra calle o edificio<small/>",
@@ -3044,7 +3044,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "loft",
-        host: HOSTS[18],
+        host: HOSTS[17],
         beds: 2,
         amenities: [
           "Entrada independiente\n<small>Entrada por otra calle o edificio<small/>",
@@ -3089,7 +3089,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "habitacion",
-        host: HOSTS[2],
+        host: HOSTS[1],
         beds: 1,              // Número de camas
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -3119,7 +3119,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[3],
+        host: HOSTS[2],
         beds: 1,
         amenities: [
           "Vista al horizonte de la ciudad",
@@ -3149,7 +3149,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[4],
+        host: HOSTS[3],
         beds: 1,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -3179,7 +3179,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "vivienda",
-        host: HOSTS[5],
+        host: HOSTS[4],
         beds: 1,
         amenities: [
           "Cocina",
@@ -3211,7 +3211,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "hotel",
-        host: HOSTS[6],
+        host: HOSTS[5],
         beds: 1,
         amenities: [
           "Cocina",
@@ -3246,7 +3246,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[8],
+        host: HOSTS[7],
         beds: 2,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -3282,7 +3282,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "habitacion",
-        host: HOSTS[8],
+        host: HOSTS[7],
         beds: 1,
         amenities: [
           "Cerradura con llave en la puerta de la habitación",
@@ -3318,7 +3318,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[9],
+        host: HOSTS[8],
         beds: 1,
         amenities: [
           "Entrada independiente\n<small>Puesto de estacionamiento para personas con discapacidad<small/>",
@@ -3354,7 +3354,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "departamento",
-        host: HOSTS[1],
+        host: HOSTS[0],
         beds: 1,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Tenemos cámaras de seguridad y video vigilancia en la calle y en los pasadizos comunes del alojamiento y escaleras de acceso Que funcionan y graban las 24 horas, para seguridad de los Huéspedes<small/>",
@@ -3390,7 +3390,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "departamento",
-        host: HOSTS[4],
+        host: HOSTS[3],
         beds: 1,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Contamos con cámaras y reflector en las afueras del condominio<small/>",
@@ -3426,7 +3426,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "departamento",
-        host: HOSTS[10],
+        host: HOSTS[9],
         beds: 1,
         amenities: [
           "Vista a las montañas",
@@ -3463,7 +3463,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "vivienda",
-        host: HOSTS[11],
+        host: HOSTS[10],
         beds: 2,
         amenities: [
           "Wifi",
@@ -3500,7 +3500,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "apartamento",
-        host: HOSTS[12],
+        host: HOSTS[11],
         beds: 1,
         amenities: [
           "Wifi de 367 Mbps\n<small>Verificado con prueba de velocidad. Se pueden transmitir videos de 4K y unirse a videollamadas en varios dispositivos.<small/>",
@@ -3537,7 +3537,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: true,
         type: "vivienda",
-        host: HOSTS[13],
+        host: HOSTS[12],
         beds: 3,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Exterior del edificio y calle.<small/>",
@@ -3575,7 +3575,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "hotel",
-        host: HOSTS[12],
+        host: HOSTS[11],
         beds: 2,
         amenities: [
           "Cámaras de seguridad en la parte exterior de la propiedad\n<small>Exterior del edificio y calle.<small/>",
@@ -3613,7 +3613,7 @@ export const DESTINATIONS: DestinationSection[] = [
         ],
         isFavorite: false,
         type: "habitacion",
-        host: HOSTS[14],
+        host: HOSTS[13],
         beds: 1,
         amenities: [
           "Llegada autónoma",
