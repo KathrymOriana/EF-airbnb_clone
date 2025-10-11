@@ -1049,11 +1049,11 @@
   margin-bottom: var(--spacing-xxl);
 }
 
-/* Property Info */
-.c-property {
-  padding-bottom: var(--spacing-lg);
+.c-main--detail{
+  margin-bottom: 0;
 }
 
+/* Property Info */
 .c-property__header {
   padding-bottom: var(--spacing-lg);
 }
@@ -1505,7 +1505,6 @@
 /* Host Profile */
 .c-host-profile {
   padding: var(--spacing-xl) 0;
-  border-bottom: 1px solid var(--color-border-light);
 }
 
 .c-host-profile__title {
@@ -1557,7 +1556,9 @@
 
 /* Policies */
 .c-policies {
-  padding: var(--spacing-xl) 0;
+  border-top: 1px solid var(--color-border-light);
+  margin: var(--spacing-xl) ;
+  padding-block: var(--spacing-xl) ;
 }
 
 .c-policies__title {

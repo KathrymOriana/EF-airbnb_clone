@@ -1,8 +1,8 @@
 import { PlaceAmenities } from "./PlaceAmenities";
 import { PlaceDescription } from "./PlaceDescription";
-import type {Place} from "../../shared/types/place.types"
-import type {Host} from "../../shared/types/host.types"
-import type {DestinationSection} from "../../shared/types/place.types";
+import type { Place } from "../../shared/types/place.types"
+import type { Host } from "../../shared/types/host.types"
+import type { DestinationSection } from "../../shared/types/place.types";
 
 interface PropertyDetailProps {
   place: Place;
@@ -265,12 +265,7 @@ const PropertyDetail = ({ place, host, destination }: PropertyDetailProps) => {
               <span>★ {host?.rating} reseñas</span>
               <span>{host?.superhost && "★ Superanfitrión"}</span>
             </div>
-            <p
-              style={{
-                fontSize: "14px",
-                lineHeight: 1.5,
-                marginBottom: "16px",
-              }}
+            <p style={{ fontSize: "14px", lineHeight: 1.5, marginBottom: "16px"}}
             >
               {host?.superhost && "Los Superanfitriones son anfitriones con experiencia y valoraciones muy altas que se comprometen a ofrecer estancias extraordinarias a sus huéspedes."}
             </p>
@@ -294,51 +289,6 @@ const PropertyDetail = ({ place, host, destination }: PropertyDetailProps) => {
               Para proteger tu pago, nunca transfieras dinero ni te
               comuniques fuera de la página o la aplicación de Airbnb.
             </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="c-policies">
-        <h2 className="c-policies__title">Lo que debes saber</h2>
-        <div className="c-policies__grid">
-          <div className="c-policy">
-            <h3 className="c-policy__title">Normas de la casa</h3>
-            <ul className="c-policy__list">
-              <li className="c-policy__item">
-                Llegada: A partir de las 14:00
-              </li>
-              <li className="c-policy__item">Salida: 11:00</li>
-              <li className="c-policy__item">2 huéspedes como máximo</li>
-            </ul>
-            <button className="c-policy__more">Mostrar más</button>
-          </div>
-          <div className="c-policy">
-            <h3 className="c-policy__title">Seguridad y propiedad</h3>
-            <ul className="c-policy__list">
-              <li className="c-policy__item">
-                No se indica si hay detector de monóxido
-              </li>
-              <li className="c-policy__item">
-                Se indica que hay detector de humo
-              </li>
-              <li className="c-policy__item">
-                Se requiere un depósito de S/ 100
-              </li>
-            </ul>
-            <button className="c-policy__more">Mostrar más</button>
-          </div>
-          <div className="c-policy">
-            <h3 className="c-policy__title">Política de cancelación</h3>
-            <ul className="c-policy__list">
-              <li className="c-policy__item">
-                Cancelación gratuita durante 48 horas
-              </li>
-              <li className="c-policy__item">
-                Cancela antes del 22 de nov. para obtener un reembolso
-                parcial
-              </li>
-            </ul>
-            <button className="c-policy__more">Mostrar más</button>
           </div>
         </div>
       </section>
