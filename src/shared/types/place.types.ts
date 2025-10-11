@@ -17,7 +17,7 @@ export interface Place {
   isFavorite?: boolean;
   type: 'departamento' | 'loft' | 'vivienda' | 'apartamento' | 'hotel' | 'condo' | 'habitacion'; // Tipo de alojamiento
   host: Host;
-  beds: number;
+  guests: number;
   amenities: string[];
   dateRange: DateRange;
 }
