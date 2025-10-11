@@ -66,10 +66,6 @@
     }
   }
 
-  .main {
-    background-color: #D70466;
-  }
-
   .c-gallery {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 150px);
@@ -120,10 +116,6 @@
 }
 
 @media (max-width: 735px) {
-  .main {
-    background-color: aqua;
-  }
-
   .c-main {
     grid-template-columns: 1fr;
     gap: var(--spacing-xl);
