@@ -376,7 +376,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: 1.0.5rem;
+    font-size: 1.0rem;
     font-weight: 610;
     color: var(--color-text);
   }
@@ -1050,6 +1050,8 @@
 }
 
 .c-main--detail{
+  margin-block: var(--spacing-lg);
+  margin-inline: 20px;
   margin-bottom: 0;
 }
 
@@ -1111,6 +1113,19 @@
   display: flex;
   align-items: center;
   gap: var(--spacing-xs);
+  width: 100%;
+
+  &:nth-child(3){
+    width: 50%;
+  }
+
+  &:nth-child(5){
+    width: 50%;
+  }
+}
+
+.c-badge div{
+  width: 100%; 
 }
 
 .c-badge__division{
@@ -1127,6 +1142,7 @@
 .c-badge__subtext {
   font-size: var(--font-size-sm);
   font-weight: 600;
+  text-align: center;
   color: var(--color-text);
 }
 

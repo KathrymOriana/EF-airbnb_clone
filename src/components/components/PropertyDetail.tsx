@@ -77,9 +77,11 @@ const PropertyDetail = ({ place, host, destination }: PropertyDetailProps) => {
         </div>
         <hr className="c-badge__division" />
         <div className="c-badge">
-          <div>
-            <div className="c-badge__text">{place.reviews}</div>
-            <div className="c-badge__subtext">Reseñas</div>
+          <div className="|">
+            <div>
+              <div className="c-badge__text">{place.reviews}</div>
+              <div className="c-badge__subtext">Reseñas</div>
+            </div>
           </div>
         </div>
       </div>
